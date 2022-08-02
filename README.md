@@ -2,6 +2,10 @@
 
 > 志田
 
+工作环境：
+  node-v16.14.1
+  npm-v8.5.0
+
 ## Build Setup
 
 ``` bash
