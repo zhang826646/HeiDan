@@ -1,11 +1,11 @@
 <template>
-<dev>
+<dev class="app-container">
   <!-- banner -->
   <div class="agileits_main">
     <!-- header -->
-    <div class="w3_agile_logo">
-      <h1 class="text-center"><a href="index.html">candid</a></h1>
-    </div>
+<!--    <div class="w3_agile_logo">-->
+<!--      <h1 class="text-center"><a href="index.html">candid</a></h1>-->
+<!--    </div>-->
     <!-- banner -->
     <div class="w3_banner">
       <div class="container">
@@ -380,27 +380,27 @@ import '../../static/js/SmoothScroll.min'
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); }
 </script>
-<script>
-import $ from 'jquery'
-// You can also use "$(window).load(function() {"
-$(function () {
-  // Slideshow 4
-  $("#slider4").responsiveSlides({
-    auto: true,
-    pager:true,
-    nav:true,
-    speed: 500,
-    namespace: "callbacks",
-    before: function () {
-      $('.events').append("<li>before event fired.</li>");
-    },
-    after: function () {
-      $('.events').append("<li>after event fired.</li>");
-    }
-  });
+<!--<script>-->
+<!--import $ from 'jquery'-->
+<!--// You can also use "$(window).load(function() {"-->
+<!--$(function () {-->
+<!--  // Slideshow 4-->
+<!--  $("#slider4").responsiveSlides({-->
+<!--    auto: true,-->
+<!--    pager:true,-->
+<!--    nav:true,-->
+<!--    speed: 500,-->
+<!--    namespace: "callbacks",-->
+<!--    before: function () {-->
+<!--      $('.events').append("<li>before event fired.</li>");-->
+<!--    },-->
+<!--    after: function () {-->
+<!--      $('.events').append("<li>after event fired.</li>");-->
+<!--    }-->
+<!--  });-->
 
-});
-</script>
+<!--});-->
+<!--</script>-->
 <!--<script>-->
 <!--$(document).ready(function(){-->
 <!--  $('.cm-overlay').cmOverlay();-->
@@ -432,5 +432,4 @@ $(function () {
 @import "../../static/css/bootstrap.css";
 @import "../../static/css/style.css";
 @import "../../static/css/font-awesome.css";
-
 </style>

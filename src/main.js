@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import '../reset.css'
+// import './static/js/jquery.mobile.custom.min'
 
 Vue.config.productionTip = false
 
